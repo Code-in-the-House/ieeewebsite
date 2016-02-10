@@ -4,6 +4,7 @@
 HTML5 display definitions
 ========================================================================== */
 
+
 /*
 * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
 */
@@ -268,6 +269,8 @@ img {
     border: 0; /* 1 */
     -ms-interpolation-mode: bicubic; /* 2 */
 }
+
+
 
 /*
 * Corrects overflow displayed oddly in IE 9.
@@ -751,10 +754,16 @@ blockquote {
     margin: 40px 0 0;
     padding: 0;
     border: none;
+    float: left;
+
+      width: 1500px;
+
+
 }
 blockquote p {
     display: inline-block;
-    margin: 0;
+    color:  #FFFFFF;
+    margin: 20px;
     padding: 0;
     width: 70%;
     vertical-align: top;
@@ -769,6 +778,7 @@ blockquote .avatar {
 }
 blockquote .logo-quote {
     display: inline-block;
+
     margin: 0 0 0 90px;
 }
 

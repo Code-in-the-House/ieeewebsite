@@ -32,6 +32,7 @@
 		<meta name="twitter:image" content="" />
 		<meta name="twitter:url" content="" />
 		<meta name="twitter:card" content="" />
+
 		<!-- HTML5 Shim ve HTML5 elemanları ve medya sorguları Respond.js IE8 desteği -->
 		<!-- Dikkat: Respond.js calismazsa js/.. klasorundeki kodlari internet adresinden cekiniz.:// -->
 		<!--[if lt IE 9]>
@@ -39,7 +40,7 @@
 		<script src="js/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body onLoad="if (location.href.indexOf('reload')==-1) location.replace(location.href+'?reload')">
 		<!--[if lt IE 7]>
 		<p class="browsehappy">Suan  <strong>guncel</strong>  olmayan bir tarayiciyi kullaniyorsunuz.Lutfen tarayicinizi <a href="http://browsehappy.com/">buradan</a> guncelleyiniz.</p>
 		<![endif]-->
@@ -59,7 +60,7 @@
 					<div class="row hero-content">
 						<div class="col-md-12">
 							<h1 class="animated fadeInDown">Karadeniz Teknik Üniversitesi IEEE Student Branch</h1>
-							<a href="https://www.facebook.com/IEEEKTU" class="use-btn animated fadeInUp">Facebook'ta takip et</a> <a href="#about" class="learn-btn animated fadeInUp">Etkinlikler <i class="fa fa-arrow-down"></i></a>
+							<a href="https://www.facebook.com/IEEEKTU" target="_blank" class="use-btn animated fadeInUp">Facebook'ta takip et</a> <a href="#about" class="learn-btn animated fadeInUp">Etkinlikler <i class="fa fa-arrow-down"></i></a>
 						</div>
 					</div>
 				</div>
@@ -81,27 +82,80 @@
 						<div class="features-bg">
 							<div class="texture-overlay"></div>
 							<div class="features-img wp1">
-								<img src="img/html5-logo.png" alt="HTML5 Logo">
+								<img src="img/logo-white.png" alt="IEEE Logo">
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 nopadding">
 						<div class="features-slider">
 								<ul class="slides" id="featuresSlider">
+
 									<li>
-										<h1>Etkinlik Başlıgı</h1>
-										<p>En son yapılan etkinlik burada gorunecektır.</p>
-										<p><a href="#" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+										<h1>Game Maker ile Oyun Programlama</h1>
+										<p>Popüler oyun motorları arasında olan Game Maker ile iki boyutlu oyun programla eğitimini gerçekleştirdik.</p>
+										<p><a href="https://www.facebook.com/ktucs/photos/a.935363893175898.1073741827.217628928282735/955962331116054/?type=3&theater" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
 									</li>
 									<li>
-										<h1>Etkinlik Başlığı</h1>
-										<p>Zamanlamaya göre diğer etkinlikler</p>
-										<p><a href="#" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p>
+										<h1>TISP Projesi</h1>
+										<p>Teacher In-Service Program (TISP) kapsamında Akçaabat'ta bulunan bir köy okuluna temel elektronik dersi verildi.</p>
+										<p><a href="https://www.facebook.com/KtuWie" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+
+									<li>
+										<h1>Mühendislerle buluşuyoruz</h1>
+										<p>Mühendislerle Buluşuyoruz" etkinliklerimize kaldığımız yerden devam ettik! Bu sene düzenlediğimiz etkinliğe Trt Trabzon Elektrik Elektronik Mühendisi ve Hidroelektrik Santral İşletme Müdürü katıldı.</p>
+										<p><a href="https://www.facebook.com/events/479853122195365/" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
 									</li>
 									<li>
-										<h1>Etkinlik Başlığı</h1>
-										<p>Etkinlik hakkında açıklayıcı bilgiler</p>
-										<p><a href="#" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p>
+										<h1>C# Programlama Dili ve Ekosistemi</h1>
+										<p>KTU IEEE Computer Society olarak düzenlediğimiz C# Programlama Dili ve Ekosistemi Etkinliğinde tüm arkadaşlara c# ve programlama mantığını anlattık.</p>
+										<p><a href="https://www.facebook.com/events/687645178004446/" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+
+									<li>
+										<h1>GIT-101 Workshop</h1>
+										<p>Git, yazılım geliştirme sürecini hızlandırmak ve yazılımın sürüm kontrolü için kullanılan popüler bir araçtır.<p>Bizde git hakkında bir workshop düzenledik. Etkinliğe katılanlar git mantığını ve nasıl kullanılacağını öğrendiler.</p>
+										<p><a href="https://www.facebook.com/events/902827553141217/" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+
+									<li>
+										<h1>Tiyatro Etkinliği</h1>
+										<p>Kulüp olarak daha fazla kaynaşmak için hep beraber tiyatro oyununa gittik.</p>
+										<p><a href="https://www.facebook.com/ktueek/photos/a.285409231493295.76738.279563008744584/1089199557780921/?type=3&theater" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+									<li>
+										<h1>EMKON 2015</h1>
+										<p>EEMKON 2015 Kongresinde Üniversitemizi Temsilen Yerimizi Aldık.</p>
+										<p><a href="https://www.facebook.com/eemkonn2015/?fref=ts" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+
+									<li>
+										<h1>Başkanlık Seçimi</h1>
+										<p>4 Kasım Çarşamba günü kulüp başkanlık seçimleri yapıldı. 2015/2016 Kulüp başkanımız Özgür Çeri oldu.</p>
+										<p><a href="https://www.facebook.com/ktueek/posts/1077794035588140" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+
+									<li>
+										<h1>Tanışma Kahvaltısı</h1>
+										<p>Aramıza yeni katılan arkadaşlar için tanışma kahvaltısı düzenledik.</p>
+										<p><a href="https://www.facebook.com/events/533395740147576/" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+
+									<li>
+										<h1>Komiteler Toplanıyor</h1>
+										<p>2015-2016 Komite toplantılarını gerçekleştirdik.</p>
+										<p><a href="https://www.facebook.com/ktueek/photos/a.285409231493295.76738.279563008744584/1066700906697453/?type=3&theater" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p><!--Burada features yapısı kullanılabilir. #features-->
+									</li>
+
+									<li>
+										<h1>Tanışma Toplantısı 2015</h1>
+										<p>- Kulübe katılmak derslerimi nasıl etkiler? -Sadece derslere girerek mühendis olunur mu?<p>-Öğrenciyken is dünyasıyla nasıl tanışabilirim? Ben de robot yapabilir miyim?  -Elektrikli araç takımının bir parçası olabilir miyim? <p>Bunlar ve kulüp hakkında merak ettiğiniz her şeyin cevabı için bir tanışma toplantısı düzenlendi.</p>
+										<p><a href="https://www.facebook.com/events/1670456043191204/" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p>
+									</li>
+									<li>
+										<h1>Proje Baharı 2015</h1>
+										<p>VESTEK A.Ş. GENEL MÜDÜRÜ METİN SALT'ın katılımıyla gerçekleştirdiğimiz  "GİRİŞİMCİLİK" SEMİNERİ </p>
+										<p><a href="https://www.facebook.com/events/1042316292480474/" target="_blank" class="arrow-btn">Etkinlik Sayfasına gitmek için tıklayın <i class="fa fa-long-arrow-right"></i></a></p>
 									</li>
 
 									<!-- YENI ETKINLIK ICIN BU KODU KOPYALAYINIZ....
@@ -124,24 +178,24 @@
 
 						<div class="col-md-4 feature-1 wp2">
 							<div class="feature-icon">
-								<i class="fa fa-external-link"></i>
+								<i class="fa fa-rocket"></i>
 							</div>
 							<div class="feature-content">
-								<h1>DUYURULAR</h1>
-								<p>Duyuru acıklamaları burada ozetlenecek ve duyuru sayfasına yonlendırılecek</p>
-								<a href="#" class="read-more-btn">Devamını oku <i class="fa fa-chevron-circle-right"></i></a>
+								<h1>K-Tech Team Shell Eco-marathon yarışmasına davet edildi.</h1>
+								<p>K-Tech Team olarak başvurduğumuz Shell Eco-Marathon(London) yarışmasının ikinci aşamasını geçerek yarışmaya katılma hakkı kazandık. Ülkemizi temsil edeceğimiz bu yolda bizleri desteklediğiniz için teşekkür ederiz.</p>
+								<a href="https://www.facebook.com/ktechteam/" target="_blank" class="read-more-btn">Devamını oku <i class="fa fa-chevron-circle-right"></i></a>
 							</div>
 
 						</div>
 
 						<div class="col-md-4 feature-2 wp2 delay-05s">
 							<div class="feature-icon">
-								<i class="fa fa-external-link"></i><!--flash-->
+								<i class="fa fa-bicycle"></i><!--flash-->
 							</div>
 							<div class="feature-content">
-								<h1>DUYURULAR 2</h1>
-								<p>Duyuru acıklamaları burada ozetlenecek ve duyuru sayfasına yonlendırılecek</p>
-								<a href="#" class="read-more-btn">Devamını oku <i class="fa fa-chevron-circle-right"></i></a>
+								<h1>K-Tech Aracımız Türkiye üçüncüsü oldu</h1>
+								<p>Tübitak Alternatif Enerjili Araç Yarışları Hidrojenli araç kategorisinde K-Tech Ekibimiz derece aldı.</p>
+								<a href="https://www.facebook.com/ktechteam/videos/1510125805952266/" target="_blank" class="read-more-btn">Devamını oku <i class="fa fa-chevron-circle-right"></i></a>
 							</div>
 						</div>
 						<div class="col-md-4 feature-3 wp2 delay-1s">
@@ -149,9 +203,9 @@
 								<i class="fa fa-external-link"></i>
 							</div>
 							<div class="feature-content">
-								<h1>DUYURULAR 3</h1>
-								<p>Duyuru acıklamaları burada ozetlenecek ve duyuru sayfasına yonlendırılecek</p>
-								<a href="#" class="read-more-btn">Devamını oku <i class="fa fa-chevron-circle-right"></i></a>
+								<h1>Hologram projesi son hızıyla devam ediyor.</h1>
+								<p>Kulübümüz bünyesinde hologram çalışmaları</p>
+								<a href="https://www.instagram.com/p/BAVGnEbMmvdvwSJttbELwZsaPtsDiEinJE5-t80/" target="_blank" class="read-more-btn">Devamını oku <i class="fa fa-chevron-circle-right"></i></a>
 							</div>
 						</div>
 
@@ -169,8 +223,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="device wp3">
-								<div class="device-content">
+
 									<div class="showcase-slider">
 										<ul class="slides" id="showcaseSlider">
 											<li>
@@ -182,165 +235,114 @@
 											<li>
 												<img src="img/screen3.jpg" alt="resim gelecek">
 											</li>
+											<li>
+												<img src="img/screen4.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen5.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen6.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen7.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen9.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen10.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen11.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen12.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen13.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen14.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+											<li>
+												<img src="img/screen15.jpg" alt="resim gelecek"><!-- telefonun ıcerıgı-->
+											</li>
+
 										</ul>
 									</div>
 								</div>
-							</div>
-						</div>
+
 						<div class="col-md-6">
-							<h1>kulubun vizyonu</h1>
-							<p>kulüp baskanından mesaj</p>
-							<blockquote class="team-quote">
-								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
-								<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;özgür cerı baskan ne dusnuyor buraya bır metın lazım </p>
-								<div class="logo-quote">
-									<a href="#"><img style="margin-left: 150px"src="img/codrops-logo.png" alt="Codrops Logo"></a>
-								</div>
-							</blockquote>
-							<a href="#" class="download-btn">mail at<i class="fa fa-envelope-o"></i></a>
+							<h1>IEEE KTU Vizyonumuz</h1>
+							<p>Karadeniz Teknik Üniversitesi IEEE Öğrenci Kulübü olarak amacımız, hem lisans eğitimi görmekte olan öğrencilerin kişisel
+								 organizasyonel yeteneklerini geliştirmek, hem de eğitimi alırken öğrenecekleri mühendislik formasyonunu ve becerilerini,
+								 iş hayatında karşılaşacakları alanlara yurt içi teknik geziler düzenleyerek göstermek ve yetkili kişilerin ağzından
+								  dinlemelerine fırsat sağlamaktır. Karadeniz Teknik Üniversitesi IEEE Öğrenci Kulübü'nde aktif rol almış her birey
+									 mezun olduktan sonra, organizasyon yeteneklerini geliştirmiş, aldığı eğitimin kullanım alanlarını öngörebilecek,
+									  kendini ekstra projelerle donatmış olarak hayata bir adım önde başlayacaktır. Ayrıca Karadeniz Teknik Üniversitesi
+										IEEE Öğrenci Kulübü'nü ve IEEE Türkiye’yi hem iş dünyasında hem de eğitim kuruluşlarında duyurmak ve güvenirliğini
+										sağlamak da hedeflerimiz arasındadır.</p>
+							<h1>Karadeniz Teknik Üniversitesi IEEE ekibi olarak öncelik verdiğimiz etkinlikler ve fırsatlar:</h1>
+							<p>- Gelişmemizi destekleyecek ve geleceğimiz hakkında bize fikir kazandıracak teknik çalışmalar,seminerler ve geziler.<br>-
+								 Karadeniz Teknik Üniversitesi'nde kullanılmakta olan program ve uygulamaların eğitim ve workshopları.<br>
+								 -Temiz enerji,robotik, bilgisayar alanlarında teknik eğitimler vererek bireylerin kişisel gelişimine katkıda bulunmak.<br>
+								 - Dünyanın en büyük mühendislik topluluğu olan IEEE'ye ve Popüler Bilim Dergisi IEEE Spectrum'a üyelik.<br>-
+								 IEEE Türkiye kapsamında bulunan diğer üniversitelerin IEEE Öğrenci Kolları'nın düzenlediği etkinliklere katılım.<br>
+								 -Her sene önde gelen şirketleri ağırladığımız başta geleneksel hale gelmiş olan Kariyer Gelişim Günleri ve diğer etkinlikler.
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="screenshots-intro">
+		<section class="video" id="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<h1>Komiteler</h1>
-						<p>Komite tanıtımları burada yapılacak</p>
-						<p><a href="#screenshots" class="arrow-btn">komite sayfasına geçiş <i class="fa fa-long-arrow-right"></i></a></p>
+					<div class="col-md-12 text-center">
+						<h1><a href="https://www.youtube.com/watch?v=cd3CMe6okjQ" class="youtube-media"><i class="fa fa-play-circle-o"></i> Karadeniz Teknik Üniversitesi tanıtım videosu</a></h1>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="screenshots" id="screenshots">
-			<div class="container-fluid">
-				<div class="row">
-					<ul class="grid">
-						<li>
-							<figure>
-								<img src="img/01-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/01.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Robotic A Society</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/02-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/02.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Computer Society</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/03-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/03.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Power Elektronşk</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/04-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/04.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Sponsorluk</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-					</ul>
-				</div>
-				<div class="row">
-					<ul class="grid">
-						<li>
-							<figure>
-								<img src="img/05-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/05.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>İTKK</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/06-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/06.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p>Sosyal</p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/07-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/07.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p></p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-						<li>
-							<figure>
-								<img src="img/08-screenshot.jpg" alt="Screenshot 01">
-								<figcaption>
-								<div class="caption-content">
-									<a href="img/large/08.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
-										<p></p>
-									</a>
-								</div>
-								</figcaption>
-							</figure>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
+
 		<section class="download" id="download">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center wp4">
-						<h1>Daha fazlası için</h1>
-						<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Komiteler <i class="fa fa-university"></i></a>
-					</div>
+				<div class="col-md-6">
+					<h1>Başkan'ın düşünceleri;</h1>
+
+					<blockquote  class="team-quote">
+
+						<a>IEEE KTU Öğrenci Kolu , IEEE’nin toplam 80 ülkede kurulmuş olan 1300′den fazla öğrenci kolundan bir tanesidir.
+							 IEEE KTU sırasıyla, Afrika, Avrupa ve Orta Doğu’dan oluşan IEEE 8. Bölge‘ye, IEEE Türkiye Şubesine‘ne ve Karadeniz Teknik Üniversitesi’ne bağlıdır.
+							 IEEE KTU Öğrenci Kolu 2008 yılında 6 kurucu üyeyle dünyanın en büyük teknik örgütü olan IEEE ‘nin 1150 öğrenci kolundan biri olarak faaliyetlerine başlamıştır.
+							 IEEE KTU Öğrenci Kolu, etkinliklerini yerel bir bakış açısında ve küresel düşünerek gerçekleştirmektedir. Bütün çalışmalarımızı sürekli ve düzenli kılmak en önemli amaçlarımızdandır.
+							  Aynı biçimde etkinliklerin üyelerinin kişisel gelişimlerinde yararlı olması da bir diğer amacıdır.
+								Tüm mühendislik bölümlerden öğrencilerin oluşturduğu dinamik kadrosuyla ve her bölümden öğrencilere hitap eden etkinlikleriyle faaliyet göstermektedir.
+								Amaçlı ve sistemli büyümeyi kendine ilke edinmiş olan IEEE KTU Öğrenci Kolu’ nun etkinlikleri,yerel ve uluslararası basında geniş yer almakta
+								ve gerek IEEE KTU ’nin çok yönlü ortamını,gerekse öğrencilerin profesyonel yeterliliklerini göstermektedir.
+								Bugüne kadar ulusal düzeyde pek çok başarılı etkinliği düzenleme onuruna sahip olan IEEE KTU Öğrenci Kolu’nun sosyal sorumluluk duygusuyla gerçekleştirdiği projeler
+								Türkiye’de var olan öğrenci kulüp ve toplulukları arasında saygın bir yer edinmemizi sağlamıştır. </a>
+
+
+					</blockquote>
+
+					<a href="mailto:info@ktuieee.com" class="download-btn">Başkan'a mail gönder<i class="fa fa-envelope-o"></i></a>
 				</div>
 			</div>
 		</section>
+
+
+					<section class="video" id="about">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<h1><a href="https://www.youtube.com/watch?v=Qzou2tjZPEg" class="youtube-media"><i class="fa fa-play-circle-o"></i> IEEE Wie CampusWin</a></h1>
+								</div>
+							</div>
+						</div>
+					</section>
 		<footer>
 			<div class="container">
 				<div class="row">
@@ -354,7 +356,9 @@
 						<ul class="footer-nav">
 							<li><a href="#about">Etkinlikler</a></li>
 							<li><a href="#features">Duyurular</a></li>
-							<li><a href="#screenshots">Komiteler</a></li>
+							<li><a href="http://k-tech.ktu.edu.tr/" target="_blank">K-TECH TEAM</a></li>
+							<li><a href="https://twitter.com/ktueec" target="_blank">Twitter</a></li>
+
 
 						</ul>
 					</div>
@@ -370,8 +374,19 @@
 				</ul>
 				<ul>
 					<li><a href="#"><i class="fa fa-female"></i>&nbsp;&nbsp;Women in Engineering&nbsp;&nbsp;</a></li>
-
 				</ul>
+					<br>	<br>
+				<ul>
+					<li><a href="#"><i class="fa fa-diamond"></i>&nbsp;&nbsp;Sponsorluk ve Tanıtım Komitesi&nbsp;&nbsp;</a></li>
+				</ul>
+
+				<ul>
+					<li><a href="#"><i class="fa fa-user-plus"></i>&nbsp;&nbsp;IEEE Türkiye Kardeş Kollar Projesi&nbsp;&nbsp;</a></li>
+				</ul>
+				<ul>
+					<li><a href="#"><i class="fa fa-child"></i>&nbsp;&nbsp;Sosyal Sorumluluk Projesi&nbsp;&nbsp;</a></li>
+				</ul>
+
 			</nav>
 		</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
