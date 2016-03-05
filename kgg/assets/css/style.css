@@ -24,6 +24,29 @@ a, a:hover, a:focus {
     -ms-transition: all .3s;
     transition: all .3s;
 }
+.social-icon{
+    float: middle;
+    margin-left: -45px;
+}
+.footer-copyright{
+  text-align: center;
+}
+.span12{
+    -moz-box-shadow: 0 0 200px white;
+    -webkit-box-shadow: 0 0 200px white;
+    box-shadow: 0 0 200px white;
+    display: inline-block;
+}
+
+#icoon {
+font-size: 40px;
+}
+@media screen and (max-with: 700px){
+  #icoon {
+  font-size: 20%;
+  margin-top: 0px;
+  }
+}
 
 h2 {
 	margin-top: 10px;
@@ -63,7 +86,7 @@ img { max-width: 100%; }
 	background: url(../img/logo.png) center center no-repeat;
 	text-indent: -99999px;
 }
-  
+
 .coming-soon p {
 	margin: 60px 0 10px 0;
 	padding: 0 120px;
@@ -260,11 +283,11 @@ input[type="text"]::-webkit-input-placeholder { color: #fff; }
 }
 
 @media (max-width: 767px) {
-	
+
 	.coming-soon p { padding: 0; }
 	.timer .days-wrapper, .timer .hours-wrapper, .timer .minutes-wrapper, .timer .seconds-wrapper { width: 150px; }
 	.timer .slash { display: none; }
-	
+
 	.footer-copyright p, .footer-social { text-align: center; }
 	.footer-copyright { padding-bottom: 15px; }
 
@@ -278,7 +301,7 @@ input[type="text"]::-webkit-input-placeholder { color: #fff; }
 }
 
 @media (max-width: 400px) {
-	
+
 	h1, h2 { font-size: 32px; }
 
 }
